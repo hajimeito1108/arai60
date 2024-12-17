@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class LinkedListCycleStep2 {
+public class LinkedListCycleStep3 {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
@@ -25,8 +25,3 @@ public class LinkedListCycleStep2 {
         return false;
     }
 }
-
-/**
- * 他の方のコードを読んで気になった点
- * slowを先に定義しがち？ <= ここら辺は人によりそう
- */
