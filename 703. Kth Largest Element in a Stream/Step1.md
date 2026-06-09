@@ -42,3 +42,7 @@ class KthLargest {
  * int param_1 = obj.add(val);
  */
 ```
+
+## 感想
+
+PriorutyQueueの使い方に戸惑ったものの、解けはしたが重複が多くもっといい書き方が絶対にあるので後で見返す
