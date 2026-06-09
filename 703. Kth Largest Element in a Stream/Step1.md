@@ -1,3 +1,5 @@
+# 703. Kth Largest Element in a Stream
+
 ## 問題理解
 
 テストスコア管理人
@@ -28,7 +30,7 @@ class KthLargest {
     }
 
     public int add(int val) {
-        queue.add(num);
+        queue.add(val);
         if (queue.size() > placeAndSize) {
             queue.poll();
         }
